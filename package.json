@@ -1,6 +1,16 @@
 {
   "name": "kihyun92.io",
+  "description": "My personal website",
   "version": "0.1.0",
+  "author": {
+    "name": "Kihyun Kim",
+    "email": "okkihyun1@gmail.com",
+    "url": "https://kihyun92.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kihyun92/kihyun92.io.git"
+  },
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -19,5 +29,8 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "4.9.4"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.1"
   }
 }
