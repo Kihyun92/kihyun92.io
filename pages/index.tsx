@@ -1,7 +1,5 @@
-import { Navigator } from 'components/navigator';
 import { NextPage } from 'next';
 import Head from 'next/head';
-import Image from 'next/image'
 
 const Home: NextPage = () => {
   return (
@@ -12,9 +10,6 @@ const Home: NextPage = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div>
-        <Navigator />
-      </div>
     </>
   );
 };
