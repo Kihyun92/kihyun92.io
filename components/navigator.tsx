@@ -8,6 +8,7 @@ export const Navigator: React.FC = () => {
           <Link href="/">kihyuns blog</Link>
         </div>
         <ol className="flex flex-row">
+          <li className="px-5 py-2"><Link href="/posts">Posts</Link></li>
           <li className="px-5 py-2"><Link href="/wiki">Wiki</Link></li>
           <li className="px-5 py-2"><Link href="/me">Me</Link></li>
         </ol>
